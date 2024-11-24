@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 520vh;
+}
+
+.topnav {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  width: 59%;
+  
+}
+.parentTopNav {
+  display: flex;
+  justify-content: center;
+}
+.topnav {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.textDec {
+  color: rgb(211, 211, 211);
+}
+nav {
+  background-color: #d90023;
+}
+.Rednav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.Searchbar > input {
+  padding: 15px 500px 15px 20px;
+  border-radius: 50px;
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+.icons {
+  width: 30px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 20px 40px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.pic {
+  display: flex;
+  justify-content: space-evenly;
+  width: 92%;
+}
+.topimgs {
+  width: 400px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.pic1 {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.secimg {
+  width: 598px;
+}
+.main2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.headtext {
+  margin-left: 68px;
+
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+.redText {
+  color: #d90023;
+}
+.cardMainParent{
+    display: flex;
+    justify-content: center;
+}
+.cardparent {
+margin-top: 30px;
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.individualcard {
+  width: 230px;
+}
+.cardimg {
+  width: 100%;
+  height: 228px;
+}
+.dollar {
+  color: #d90023;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.carddetails {
+  margin-top: 20px;
+}
+.cardtext {
+    font-weight: 300;
+    font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.offer {
+  margin-top: 5px;
+}
+.button {
+  background-color: #d90023;
+  color: white;
+  border-radius: 40px;
+  border: none;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 3px 6px;
+  margin-top: 5px;
+}
+.cardtext {
+  margin-top: 5px;
+}
+.star {
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+}
+.rating {
+  padding-left: 5px;
+  font-size: 15px;
+  color: grey;
+}
+.headtext2{
+    margin-left: 68px;
+     margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+.offerimg{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.offerimg>img{
+    width: 400px;
+}
+.saleoffer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    
+}
+.saleoffer>img{
+    width: 300px;
+    margin-top: 70px;
+}
+.items{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.shopnow{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  /* margin-top: 10px; */
+}
+
+.percent{
+  width: 300px;
+  height: 300px;
+}
+.rightarrow{
+  height: 20px;
+  width: 20px;
+}
+ .headtext3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  margin-top: 60px;
+  margin-left: 68px;
+ }
+ a{
+  text-decoration: none;
+  color: black;
+ }
+ a:visited{
+  color: black;
+  text-decoration: none;
+ }
+ .shopnowSalesDiv{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100px;
+ }
+.parent{
+  display: flex;
+  justify-content: center;
+}
+.cardparent1{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-left: 25px;
+}
+.circleimgdiv{
+  display: flex;
+  justify-content: center;
+}
+.circleimg{
+  border-radius: 100%;
+  width: 70%;
+  height: 70%;
+}
+.items2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.grandparent4{
+  background-color: #ff576a;
+  margin-top: 60px;
+  padding: 35px 60px;
+  display: flex;
+  justify-content: center;
+}
+.iconsbottom{
+  width: 9%;
+  height: 10%;
+}
+
+.bottomtext{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  color: white;
+  width: 220px;
+  margin-left: 15px;
+}
+.bottomtext2{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 80%;
+  color: white;
+  width: 60%;
+  margin-left: 15px;
+  line-height: 20px;
+}
+.grandparent5{
+  background-color: #252525;
+  padding: 30px 40px;
+  display: flex;
+  justify-content: center;
+}
+.textblack>p{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:600;
+  font-size: 20px;
+  width: 430px;
+}
+.blackmail>input{
+    padding: 15px 150px 15px 25px;
+    border-radius: 5px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.subblackmail{
+  background-color: #d90023;
+  padding: 8px 8px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-left: -160px;
+  border: none;
+  padding: 8px 18px;
+}
+.grandparent6{
+  background-color: #d90023;
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  padding: 50px;
+}
+.lefttext{
+  font-size: 14px;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.socialIcons2{
+  margin-top: 20px;
+}
+.socialIcons2>img{
+  width: 25px;
+}
+.mainLeftDiv{
+  display: flex;
+    flex-direction: column;
+}
+.boldtext2{
+  font-weight: 600;
+}
+.righttext{
+  color: white;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 40vh;
+}
+.bottomdivtext{
+  display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
